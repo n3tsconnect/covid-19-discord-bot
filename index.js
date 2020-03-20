@@ -1,9 +1,9 @@
 const fs = require('fs');
 const Discord = require('discord.js');
+const { prefix, token } = require('./config.json');
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
-client.prefix = "c!"
 
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 
@@ -18,8 +18,8 @@ for (const file of commandFiles) {
 console.log(client.commands)
 
 client.on('message', message => {
-    if (!message.content.startsWith(client.prefix) || message.author.bot) return;
-    const args = message.content.slice(client.prefix.length).split(/ +/);
+    if (!message.content.toLowerCase().startsWith(prefix) || message.author.bot) return;
+    const args = message.content.slice(prefix.length).split(/ +/);
     const commandName = args.shift().toLowerCase();
     
     if (!client.commands.has(commandName)) return;
@@ -36,4 +36,4 @@ client.on('message', message => {
 
 
 
-client.login('');
+client.login(token);
