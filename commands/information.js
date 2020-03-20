@@ -6,7 +6,7 @@ module.exports = {
     usage: '',
     execute(message, args) {
 
-        const exampleEmbed = {
+        const infoEmbed = {
             color: 0x0099ff,
             title: 'Recommended Resources',
             author: {
@@ -38,6 +38,6 @@ module.exports = {
 
         };
 
-        message.channel.send({ embed: exampleEmbed })
+        message.channel.send({ embed: infoEmbed })
     }
 }

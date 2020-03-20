@@ -14,8 +14,7 @@ module.exports = {
             if (!client.commands.has(args[0])) return;
             var command_info = client.commands.get(args[0]);
             console.log(command_info)
-            const exampleEmbed = {
-                color: 0x0099ff,
+            const helpEmbed = {
                 title: "Command: " + client.prefix + command_info['name'],
                 author: {
                     name: 'Module Information',
@@ -29,7 +28,7 @@ module.exports = {
                 ],
                 timestamp: new Date(),
             };
-            message.channel.send({ embed: exampleEmbed })
+            message.channel.send({ embed: helpEmbed })
 
         }
     },
