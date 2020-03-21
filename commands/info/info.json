@@ -29,32 +29,32 @@
 
     "regional": [     
         {
-            "description": "Regional Information (Indonesia) - KAWALCOVID19",
+            "description": "(Indonesia) - KAWALCOVID19",
             "link": "https://kawalcovid19.id/"
         },
         {
-            "description": "Regional Information (Indonesia) - National Govt. Information Site on COVID-19",
+            "description": "(Indonesia) - National Govt. Information Site on COVID-19",
             "link": "https://www.covid19.go.id/"
         },
 
         {
-            "description": "Regional Information (Indonesia) - Jakarta COVID-19 Site",
+            "description": "(Indonesia) - Jakarta COVID-19 Site",
             "link": "https://corona.jakarta.go.id/id"
         },
         {
-            "description": "Regional Information (Indonesia) - West Java COVID-19 Site",
+            "description": "(Indonesia) - West Java COVID-19 Site",
             "link": "https://pikobar.jabarprov.go.id/"
         },
         {
-            "description": "Regional Information (Indonesia) - Jogjakarta COVID-19 Site",
+            "description": "(Indonesia) - Jogjakarta COVID-19 Site",
             "link": "https://corona.jogjaprov.go.id/"
         },
         {
-            "description": "Regional Information (Indonesia) - Central Java COVID-19 Site",
+            "description": "(Indonesia) - Central Java COVID-19 Site",
             "link": "https://corona.jatengprov.go.id/"
         },
         {
-            "description": "Regional Information (Indonesia) - Banten  COVID-19 Site",
+            "description": "(Indonesia) - Banten  COVID-19 Site",
             "link": "https://infocorona.bantenprov.go.id/"
         }
 
