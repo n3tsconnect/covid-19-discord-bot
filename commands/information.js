@@ -10,7 +10,7 @@ module.exports = {
         var generalInfo = ""
             mapsInfo = ""
             regionalInfo = ""
-            
+
         general.forEach((info) => {
             generalInfo += `\n[${info['description']}](${info['link']})\n`
         })
@@ -51,10 +51,6 @@ module.exports = {
 
         };
 
-        message.channel.send({ embed: infoEmbed }).then(() => {
-            generalInfo = "";
-            mapsInfo = "";
-            regionalInfo = "";
-        })
+        message.channel.send({ embed: infoEmbed })
     }
 }
