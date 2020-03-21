@@ -1,0 +1,47 @@
+{
+    "general": [
+        {
+            "description": "A Compact and Concise PSA on COVID-19 (source: u/ilikelegoandcrackers from r/Canada)",
+            "link": "https://www.reddit.com/r/canada/comments/fghd23/psa_regarding_covid19_a_warning/"
+        },
+
+        {
+            "description": "WHO Informational Page on COVID-19",
+            "link": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019"
+        },
+
+        {
+            "description": "CDC Informational Page on COVID-19",
+            "link": "https://www.cdc.gov/coronavirus/2019-ncov/index.html"
+        },
+
+        {
+            "description": "Regional Information (Indonesia) - KAWALCOVID19",
+            "link": "https://kawalcovid19.id/"
+        },
+        {
+            "description": "Regional Information (Indonesia) - National Govt. Information Site on COVID-19",
+            "link": "https://www.covid19.go.id/"
+        },
+
+        {
+            "description": "Regional Information (Indonesia) - Jakarta Govt. COVID-19 Site",
+            "link": "https://corona.jakarta.go.id/id"
+        },
+        {
+            "description": "Regional Information (Indonesia) - Jabar Govt. COVID-19 Site",
+            "link": "https://pikobar.jabarprov.go.id/"
+        }
+    ],
+
+    "maps": [
+        {
+            "description": "John Hopkins University Global Interactive Map",
+            "link": "https://coronavirus.jhu.edu/map.html"
+        },
+        {
+            "description": "Channel News Asia Global Interactive Map",
+            "link": "https://infographics.channelnewsasia.com/covid-19/map.html"
+        }
+    ]
+}
