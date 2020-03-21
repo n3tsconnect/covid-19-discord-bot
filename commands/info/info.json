@@ -44,6 +44,19 @@
         {
             "description": "Regional Information (Indonesia) - Jabar Govt. COVID-19 Site",
             "link": "https://pikobar.jabarprov.go.id/"
+        },
+        {
+            "description": "Regional Information (Indonesia) - Jogjakarta Govt. COVID-19 Site",
+            "link": "https://corona.jogjaprov.go.id/"
+        },
+        {
+            "description": "Regional Information (Indonesia) - Central Java Govt. COVID-19 Site",
+            "link": "https://corona.jatengprov.go.id/"
+        },
+        {
+            "description": "Regional Information (Indonesia) - Banten Govt. COVID-19 Site",
+            "link": "https://infocorona.bantenprov.go.id/"
         }
+
     ]
 }
