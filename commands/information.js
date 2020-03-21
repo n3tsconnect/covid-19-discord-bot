@@ -1,7 +1,5 @@
 const { general, maps, regional } = require('./info/info.json')
-var generalInfo = ""
-    mapsInfo = ""
-    regionalInfo = ""
+
     
 
 module.exports = {
@@ -9,6 +7,10 @@ module.exports = {
     description: "Shows you useful information surrounding COVID-19 recommended by the bot's author.",
     usage: '',
     execute(message, args) {
+        var generalInfo = ""
+            mapsInfo = ""
+            regionalInfo = ""
+            
         general.forEach((info) => {
             generalInfo += `\n[${info['description']}](${info['link']})\n`
         })
