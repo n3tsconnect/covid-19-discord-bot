@@ -13,8 +13,21 @@
         {
             "description": "CDC Informational Page on COVID-19",
             "link": "https://www.cdc.gov/coronavirus/2019-ncov/index.html"
-        },
+        }
+    ],
 
+    "maps": [
+        {
+            "description": "John Hopkins University Global Interactive Map",
+            "link": "https://coronavirus.jhu.edu/map.html"
+        },
+        {
+            "description": "Channel News Asia Global Interactive Map",
+            "link": "https://infographics.channelnewsasia.com/covid-19/map.html"
+        }
+    ],
+
+    "regional": [     
         {
             "description": "Regional Information (Indonesia) - KAWALCOVID19",
             "link": "https://kawalcovid19.id/"
@@ -31,17 +44,6 @@
         {
             "description": "Regional Information (Indonesia) - Jabar Govt. COVID-19 Site",
             "link": "https://pikobar.jabarprov.go.id/"
-        }
-    ],
-
-    "maps": [
-        {
-            "description": "John Hopkins University Global Interactive Map",
-            "link": "https://coronavirus.jhu.edu/map.html"
-        },
-        {
-            "description": "Channel News Asia Global Interactive Map",
-            "link": "https://infographics.channelnewsasia.com/covid-19/map.html"
         }
     ]
 }
