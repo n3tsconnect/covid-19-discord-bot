@@ -49,6 +49,10 @@ module.exports = {
 
         };
 
-        message.channel.send({ embed: infoEmbed })
+        message.channel.send({ embed: infoEmbed }).then(() => {
+            generalInfo = "";
+            mapsInfo = "";
+            regionalInfo = "";
+        })
     }
 }
